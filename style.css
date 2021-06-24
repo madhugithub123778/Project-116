@@ -1,0 +1,44 @@
+body{
+background-repeat: no-repeat;background-position: center;background-size: cover;
+
+}
+
+.header img{
+height: 70px; width: 100px;
+
+}
+
+.header{
+font-family: 'Gill Sans';background-image: linear-gradient(to bottom right, paleturquoise ,turquoise );
+box-shadow:15px 15px 12px royalblue;height: 100px;
+}
+
+button{
+width: 250px;font-size: 18px;font-family: 'Georgia';background-color: darkblue;color: white; height: 50px;border: 3px dashed white;
+margin-top: 40px;
+}
+
+
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+
+}
+
+canvas{
+border: 3px double navy; 
+border-radius: 15px;
+animation-name: can ;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+margin-top: 130px;
+margin-bottom: 130px;
+
+}
+
+@keyframes can{
+    from{box-shadow:3px 3px 30px darkblue;}
+    to{box-shadow: 3px 3px 30px rgb(118, 94, 255);}
+
+}
