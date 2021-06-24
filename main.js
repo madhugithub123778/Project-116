@@ -41,5 +41,4 @@ image (moustache, moust_x, moust_y, 100, 80);
 
 function take_snap(){
 save ("myMoustache.png"); 
-
 }
